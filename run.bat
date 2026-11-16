@@ -1,0 +1,16 @@
+@echo off
+echo Starting Multi-User Q^&A System Setup...
+
+echo 1. Creating Python Virtual Environment...
+python -m venv venv
+
+echo 2. Activating Virtual Environment...
+call venv\Scripts\activate.bat
+
+echo 3. Installing Requirements...
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+echo 5. Starting the Streamlit Application...
+streamlit run app.py
+pause
