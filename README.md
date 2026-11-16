@@ -98,4 +98,4 @@ python test_system.py
 - **Document Processing:** LangChain (`PyPDFLoader`, `RecursiveCharacterTextSplitter`)
 - **Embeddings:** Google Generative AI Embeddings (`models/embedding-001`)
 - **Vector Database:** FAISS (In-memory, CPU friendly)
-- **LLM:** Google Generative AI (`gemini-1.5-flash`) via LangChain's `ConversationalRetrievalChain`
+- **LLM:** Google Generative AI (`gemini-2.5-flash`) via LangChain's `ConversationalRetrievalChain`
